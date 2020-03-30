@@ -1,4 +1,5 @@
 k\cichocki\wipro\result\CrawlingInfo.class
+k\cichocki\wipro\Start.class
 k\cichocki\wipro\concurrent\PageCrawlerTask.class
 k\cichocki\wipro\linkextractor\impl\jsoup\JsoupLinkExtractor.class
 k\cichocki\wipro\serializer\XStreamResultSerializer.class

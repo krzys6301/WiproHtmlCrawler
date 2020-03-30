@@ -7,7 +7,7 @@
 	<version>1.0-SNAPSHOT</version>
 	<name>WiproHtmlCrawler</name>
 	<url>http://maven.apache.org</url>
-	
+
 	<properties>
 		<jdk.version>1.9</jdk.version>
 		<jsoup.version>1.13.1</jsoup.version>
@@ -16,10 +16,10 @@
 		<mockito.version>1.10.19</mockito.version>
 		<maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
 	</properties>
-	
-		<packaging>jar</packaging>
-	
-	
+
+	<packaging>jar</packaging>
+
+
 	<dependencies>
 		<dependency>
 			<!-- jsoup HTML parser library @ https://jsoup.org/ -->
@@ -72,18 +72,29 @@
 				</configuration>
 			</plugin>
 
-			<!-- Make this jar executable -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-jar-plugin</artifactId>
-				<configuration>
-				  <archive>
-					<manifest>
-						<!-- Jar file entry point -->
-						<mainClass>k.cichocki.wipro.Start</mainClass>
-					</manifest>
-				  </archive>
-				</configuration>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>create-my-bundle</id>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+						<configuration>
+							<descriptorRefs>
+								<descriptorRef>jar-with-dependencies</descriptorRef>
+							</descriptorRefs>
+							<archive>
+								<manifest>
+									<!-- Jar file entry point -->
+									<mainClass>k.cichocki.wipro.Start</mainClass>
+								</manifest>
+							</archive>
+						</configuration>
+					</execution>
+				</executions>
 			</plugin>
 
 		</plugins>

@@ -19,4 +19,6 @@ if run without arguments, creates a file in current dir following a pattern "res
 <b>Requirements:</b>
 
 * jdk >= 1.9
-* maven
+* maven (I have used 3.6.3, not tested on other version, environment var "JAVA_HOME" should be set to the jdk root folder)
+
+
