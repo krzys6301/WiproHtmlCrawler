@@ -5,6 +5,11 @@ This is simple project, that crawls the page "http://wiprodigital.com" and all f
 The result of this crawling is a file, named following a pattern "results_dd_MM_yyyy_HH_mm_ss.xml".
 This file contains information about the root page and all its subpages which could easily be used to create map of the link connections beetween the pages.
 
+
+<b>Structure of the output file</b>
+
+Information about the root page that was crawled is stored under XPATH:
+* "k.cichocki.wipro.result.Result/baseUrl"
 Knowing the root page, you can search for a matching url string to map from this page to its subpages in each XPATH 
 * "k.cichocki.wipro.result.Result/results/entry/string", then in the same path 
 * "k.cichocki.wipro.result.Result/results/entry/" you will find elements:
