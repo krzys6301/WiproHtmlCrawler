@@ -80,7 +80,7 @@
 				  <archive>
 					<manifest>
 						<!-- Jar file entry point -->
-						<mainClass>k.cichocki.wipro.Crawler</mainClass>
+						<mainClass>k.cichocki.wipro.Start</mainClass>
 					</manifest>
 				  </archive>
 				</configuration>
