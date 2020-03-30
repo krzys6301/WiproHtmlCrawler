@@ -39,17 +39,26 @@ mvn clean package
 
 creates a jars in:
 
-${project.dir}/target/WiproHtmlCrawler.jar
-${project.dir}/target/WiproHtmlCrawler-jar-with-dependencies.jar
+* ${project.dir}/target/WiproHtmlCrawler.jar
+* ${project.dir}/target/WiproHtmlCrawler-jar-with-dependencies.jar
 
 test results are stored in:
-${project.dir}/target/surefire-reports/
+* ${project.dir}/target/surefire-reports/
 
 <b>How to run the jar</b>
 
-java -jar target/WiproHtmlCrawler-jar-with-dependencies.jar [OPTIONAL: destination file name]
+* ${project.dir}/java -jar target/WiproHtmlCrawler-jar-with-dependencies.jar [OPTIONAL: destination file name]
 
 if run without arguments, creates a file in current dir following a pattern "results_dd_MM_yyyy_HH_mm_ss.xml" containing the crawling results.
+
+Running with single argument will assume it is the path to the output file, for instance invoking:
+
+* ${project.dir}/java -jar target\WiproHtmlCrawler-jar-with-dependencies.jar out.xml
+
+will result in storing the crawling result in a file:
+
+* ${project.dir}/out.xml
+
 
 
 

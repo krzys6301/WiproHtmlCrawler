@@ -15,8 +15,9 @@
 		<junit.version>4.13</junit.version>
 		<mockito.version>1.10.19</mockito.version>
 		<maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
-
 	<packaging>jar</packaging>
 
 
