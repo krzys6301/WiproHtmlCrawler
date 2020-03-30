@@ -60,5 +60,12 @@ will result in storing the crawling result in a file:
 * ${project.dir}/out.xml
 
 
+<b>TO BE DONE</b>
 
+* Allow for specifying the page to be crawled
+* Allow for specifying the number of threads to be used;
+* Add some other formats of results
+* Create benchmark for crawling with different concurrency levels.
+* Could crate a crawler that execute the scripts on the page and detect outgoing request, adding them to the discovered links for checking.
+ 
 
