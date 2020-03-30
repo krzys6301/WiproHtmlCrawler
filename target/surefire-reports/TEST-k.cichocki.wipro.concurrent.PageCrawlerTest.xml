@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="k.cichocki.wipro.concurrent.PageCrawlerTest" time="0.406" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="k.cichocki.wipro.concurrent.PageCrawlerTest" time="0.442" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="13.0.2+8"/>
@@ -60,10 +60,10 @@
     <property name="sun.stdout.encoding" value="cp852"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="k.cichocki.wipro.concurrent.PageCrawlerTest" name="testCircullarLinks" time="0.399"/>
+  <testcase classname="k.cichocki.wipro.concurrent.PageCrawlerTest" name="testCircullarLinks" time="0.411"/>
   <testcase classname="k.cichocki.wipro.concurrent.PageCrawlerTest" name="testConnectionError" time="0.001"/>
   <testcase classname="k.cichocki.wipro.concurrent.PageCrawlerTest" name="testResourceLink" time="0.001"/>
-  <testcase classname="k.cichocki.wipro.concurrent.PageCrawlerTest" name="testEexternalLink" time="0.003"/>
-  <testcase classname="k.cichocki.wipro.concurrent.PageCrawlerTest" name="testAlreadyCrawled" time="0.001"/>
-  <testcase classname="k.cichocki.wipro.concurrent.PageCrawlerTest" name="testMalformedURL" time="0.001"/>
+  <testcase classname="k.cichocki.wipro.concurrent.PageCrawlerTest" name="testEexternalLink" time="0.029"/>
+  <testcase classname="k.cichocki.wipro.concurrent.PageCrawlerTest" name="testAlreadyCrawled" time="0"/>
+  <testcase classname="k.cichocki.wipro.concurrent.PageCrawlerTest" name="testMalformedURL" time="0"/>
 </testsuite>
