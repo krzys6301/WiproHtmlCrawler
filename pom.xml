@@ -11,7 +11,7 @@
 	<properties>
 		<jdk.version>1.9</jdk.version>
 		<jsoup.version>1.13.1</jsoup.version>
-		<xstream.version>1.4.11.1</xstream.version>
+		<xstream.version>1.4.17</xstream.version>
 		<junit.version>4.13.1</junit.version>
 		<mockito.version>1.10.19</mockito.version>
 		<maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
